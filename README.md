@@ -4,7 +4,7 @@ This repository contains scripts and files related to projects that I created wh
 
 Context for each file will be provided below, as well as instructions on how to use them in case someone wants to copy some and experiment himself/herself.
 <details>
-<summary> Hands-on Introduction to Linux Commands and Shell Scripting - IBM Course </summary>
+<summary>Hands-on Introduction to Linux Commands and Shell Scripting - IBM Course</summary>
 
 ### Scope
 Creating a script that, for a chosen city, performs a bit of ETL in order to summarizes temperature information gathered using [wttr.in](https://github.com/chubin/wttr.in), an open source weather forecast service. In particular, the challenge was to create a *rx_poc.sh* script that would update a *rx_poc.log* file with the following information about the city of choice:
@@ -61,4 +61,22 @@ It then parses the raw data in order to extract the two aforementioned temperatu
 33. echo $record>>rx_poc.log
 ```
 
+</details>
+<details>
+<summary>Developing AI Applications with Python and Flask - IBM Course</summary>
+<details>
+<summary>Practice Project: Sentiment Analysis</summary>
+
+### Scope
+Creating a Python web app using Flask and integrating Embeddable Watson AI libraries to make the web app showcase AI-based abilities. The library in question is the NLP library, which includes functions for sentiment analysis, emotion detection, text classification and language detection, among others.
+Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understanding customer needs. It helps attain the attitude and mood of the wider public which can then help gather insightful information about the context.
+
+### Solution
+The web app uses a function that was implemented as a [package](https://github.com/ScuttoZ/course-projects/tree/main/flask_project/SentimentAnalysis) to make API calls to Watson AI. The call is used to retrieve label and score information about an input text. This information informs the response that the web app gives in the user interface. The project includes a [test file](https://github.com/ScuttoZ/course-projects/blob/main/flask_project/test_sentiment_analysis.py) made with unittest.
+</details>
+<details>
+<summary>Final Project: Emotion Detector</summary>
+
+
+</details>
 </details>
