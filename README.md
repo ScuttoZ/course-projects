@@ -77,6 +77,11 @@ The web app uses a function that was implemented as a [package](https://github.c
 <details>
 <summary>Final Project: Emotion Detector</summary>
 
+### Scope
+Creating an AI-based web app that performs analytics on customer feedback for their signature products. The goal is to create an Emotion Detection system that processes feedback provided by the customer in text format and deciphers the associated emotion expressed using Watson AI's NLP library. Emotion detection extends the concept of sentiment analysis by extracting the finer emotions, like joy, sadness, anger, and so on, from statements rather than the simple polarity that sentiment analysis provides. This makes emotion detection a very important branch of study and businesses use such systems widely for their AI based recommendation systems, automated chat bots, and so on.
+
+### Solution
+The web app uses a function that was implemented as a [package](https://github.com/ScuttoZ/course-projects/tree/main/flask_final_project/EmotionDetection) to make API calls to Watson AI. The call is used to retrieve individual emotions and scores associated to them by the AI regarding an input text provided by the user. This information is then displayed to the user, along with the predominant emotion related to the input, as a formatted string. The project includes a [test file](https://github.com/ScuttoZ/course-projects/blob/main/flask_final_project/test_emotion_detection.py) made with unittest. The [web app](https://github.com/ScuttoZ/course-projects/blob/main/flask_final_project/server.py) code was tested for static code analysis and scores a 10.0/10.0 with PyLint.
 
 </details>
 </details>
